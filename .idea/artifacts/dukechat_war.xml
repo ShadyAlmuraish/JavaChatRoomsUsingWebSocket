@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="dukechat:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>dukechat</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="dukechat.war">
+      <element id="artifact" artifact-name="dukechat:war exploded" />
+    </root>
+  </artifact>
+</component>
